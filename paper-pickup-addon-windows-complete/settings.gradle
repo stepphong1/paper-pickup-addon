@@ -1,0 +1,19 @@
+pluginManagement {
+    repositories {
+        maven {
+            name = 'Fabric'
+            url = 'https://maven.fabricmc.net/'
+        }
+        maven {
+            name = 'Meteor Maven'
+            url = 'https://maven.meteordev.org/releases'
+        }
+        maven {
+            name = 'Meteor Maven Snapshots'
+            url = 'https://maven.meteordev.org/snapshots'
+        }
+        gradlePluginPortal()
+    }
+}
+
+rootProject.name = 'paper-pickup-addon'

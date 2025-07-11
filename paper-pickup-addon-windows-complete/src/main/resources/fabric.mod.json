@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "id": "paper-pickup-addon",
+  "version": "1.0.0",
+  "name": "Paper Pickup Addon",
+  "description": "Meteor Client addon that automatically picks up paper items within a 6-block radius",
+  "authors": [
+    "PaperAddon"
+  ],
+  "contact": {
+    "homepage": "https://github.com/example/paper-addon",
+    "sources": "https://github.com/example/paper-addon"
+  },
+  "license": "GPL-3.0",
+  "icon": "assets/paper-pickup-addon/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "meteor": [
+      "com.example.paperaddon.PaperAddon"
+    ]
+  },
+
+  "depends": {
+    "fabricloader": ">=0.14.0",
+    "minecraft": "1.21.4",
+    "java": ">=17",
+    "meteor-client": "*"
+  },
+  "suggests": {
+    "fabric-api": "*"
+  },
+  "custom": {
+    "meteor-client:color": "225,225,225"
+  }
+}
